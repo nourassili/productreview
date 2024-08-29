@@ -1,0 +1,24 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis</title>
+</head>
+<body>
+    <h1>Simple Sentiment Analysis</h1>
+    <form action="/analyze" method="post">
+        <textarea name="text" rows="4" cols="50" placeholder="Enter text to analyze..."></textarea><br><br>
+        <input type="submit" value="Analyze Sentiment">
+    </form>
+
+    {% if text %}
+        <h2>Input Text:</h2>
+        <p>{{ text }}</p>
+        <h2>Sentiment:</h2>
+        <p>{{ sentiment }}</p>
+    {% endif %}
+</body>
+</html>
