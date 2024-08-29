@@ -1,7 +1,6 @@
 # Real-Time Sentiment Analysis Web App
 
-This is a simple web application that performs real-time sentiment analysis on user-input text using the TextBlob library.
-
+This is a simple web application that performs real-time sentiment analysis on product reviews and detects fake ones.
 ## Features
 - Input text and receive a sentiment analysis result (Positive, Negative, Neutral).
 
@@ -14,4 +13,4 @@ This is a simple web application that performs real-time sentiment analysis on u
 ## Technologies Used
 - Python
 - Flask
-- TextBlob
+- Python nltk
