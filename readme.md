@@ -1,6 +1,7 @@
 # Real-Time Sentiment Analysis Web App
 
-This is a simple web application that performs real-time sentiment analysis on product reviews and detects fake ones.
+This is a simple web application that performs real-time sentiment analysis on product reviews and detects fake ones. It only works with user input for now! I am not a serial hacker so pls be nice to me.
+
 ## Features
 - Input text and receive a sentiment analysis result (Positive, Negative, Neutral).
 
